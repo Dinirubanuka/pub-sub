@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
-    private static final Map<String, List<ClientHandler>> topicSubscribers = new ConcurrentHashMap<>();
+    private static final Map<String, List<ClientHandler>>  topicSubscribers = new ConcurrentHashMap<>();
 
     public static void main(String[] args) {
         if (args.length != 1) {
